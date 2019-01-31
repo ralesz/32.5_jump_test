@@ -1,0 +1,25 @@
+{
+  "name": "32.5_jump_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:distance": "mocha calculateDistancePoints.test.js",
+    "test:style": "mocha calculateStylePoints.test.js",
+    "test:total": "mocha calculateTotalPoints.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ralesz/32.5_jump_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ralesz/32.5_jump_test/issues"
+  },
+  "homepage": "https://github.com/ralesz/32.5_jump_test#readme",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  }
+}
